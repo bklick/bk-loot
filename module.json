@@ -1,0 +1,67 @@
+{
+  "id": "bk-loot",
+  "title": "BK's Loot",
+  "description": "Loot compendiums for D&D 5e.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Bartholomew Klick (BK)",
+      "url": "https://github.com/bklick"
+    }
+  ],
+  "url": "https://github.com/bklick/bk-loot",
+  "manifest": "https://github.com/bklick/bk-loot/releases/latest/download/module.json",
+  "download": "https://github.com/bklick/bk-loot/releases/download/v1.0.0/bk-loot.zip",
+  "bugs": "https://github.com/bklick/bk-loot/issues",
+  "readme": "https://github.com/bklick/bk-loot/blob/main/README.md",
+  "license": "https://github.com/bklick/bk-loot/blob/main/LICENSE.md",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.0.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "gemstones",
+      "label": "Gemstones (Identified)",
+      "path": "packs/gemstones",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "gemstones-unidentified",
+      "label": "Gemstones (Unidentified)",
+      "path": "packs/gemstones-unidentified",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "BK's Loot",
+      "sorting": "m",
+      "packs": [
+        "gemstones",
+        "gemstones-unidentified"
+      ]
+    }
+  ]
+}
