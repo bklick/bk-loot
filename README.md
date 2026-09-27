@@ -1,6 +1,6 @@
 # BK's Loot
 
-!\[Screenshot of the module's content](preview.png)
+![Screenshot of the module's content](preview.png)
 
 ## Installation
 
