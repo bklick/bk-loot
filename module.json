@@ -1,8 +1,8 @@
 {
   "id": "bk-loot",
   "title": "BK's Loot",
-  "description": "Loot compendiums for D&D 5e.",
-  "version": "1.0.0",
+  "description": "Loot compendiums for D&D 5e dungeon masters: gemstones in cut, rough, and fragment forms, crafting materials, weapon affixes, and roll tables for naming magic items.",
+  "version": "1.4.0",
   "authors": [
     {
       "name": "Bartholomew Klick (BK)",
@@ -11,7 +11,7 @@
   ],
   "url": "https://github.com/bklick/bk-loot",
   "manifest": "https://github.com/bklick/bk-loot/releases/latest/download/module.json",
-  "download": "https://github.com/bklick/bk-loot/releases/download/v1.0.0/bk-loot.zip",
+  "download": "https://github.com/bklick/bk-loot/releases/download/v1.4.0/bk-loot.zip",
   "bugs": "https://github.com/bklick/bk-loot/issues",
   "readme": "https://github.com/bklick/bk-loot/blob/main/README.md",
   "license": "https://github.com/bklick/bk-loot/blob/main/LICENSE.md",
@@ -52,6 +52,38 @@
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       }
+    },
+    {
+      "name": "item-names",
+      "label": "Item Names",
+      "path": "packs/item-names",
+      "type": "RollTable",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "weapon-affixes",
+      "label": "Weapon Affixes",
+      "path": "packs/weapon-affixes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "materials",
+      "label": "Materials",
+      "path": "packs/materials",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
   ],
   "packFolders": [
@@ -60,7 +92,10 @@
       "sorting": "m",
       "packs": [
         "gemstones",
-        "gemstones-unidentified"
+        "gemstones-unidentified",
+        "materials",
+        "item-names",
+        "weapon-affixes"
       ]
     }
   ]
