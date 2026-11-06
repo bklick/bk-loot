@@ -4,7 +4,20 @@ Gemstone art by Ddant1100 (https://ddant1100.itch.io), from the TTRPG Legacy Gem
 used under the artist's license, which permits commercial and non-commercial use with credit.
 Some icons were recolored from the artist's grayscale originals.
 
-Gemstone descriptions are original summaries of the following Wikipedia articles, retrieved September 2026:
+Weapon affix icons by Ddant1100 (https://ddant1100.itch.io), from TTRPG Legacy Skill Icons,
+used under the artist's license and recolored.
+
+Treasure icons by Ddant1100 (https://ddant1100.itch.io), from TTRPG Legacy Treasures & Loots (premium),
+used under the artist's license with his permission to include them in this free module. Many icons were
+recolored with gradient maps, with the artist's approval; metal colors match the module's existing bar icons.
+
+Material icons by Ddant1100 (https://ddant1100.itch.io), from TTRPG Legacy Treasures and TTRPG Legacy
+Foods & Ingredients, used under the artist's license; most are recolored.
+School suffix icons by Ddant1100, from TTRPG Legacy Runes & Symbols, recolored.
+Other material icons are Foundry VTT's built-in core icons, referenced by path and not included in this module.
+
+Gemstone descriptions, which also appear below the descriptions of items made from or set with each gem, are excerpts from the following Wikipedia articles, retrieved September 2026.
+Wikipedia content is available under CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/).
 
 - https://en.wikipedia.org/wiki/Agate
 - https://en.wikipedia.org/wiki/Amazonite
@@ -12,7 +25,6 @@ Gemstone descriptions are original summaries of the following Wikipedia articles
 - https://en.wikipedia.org/wiki/Amethyst
 - https://en.wikipedia.org/wiki/Ametrine
 - https://en.wikipedia.org/wiki/Andradite
-- https://en.wikipedia.org/wiki/Aquamarine_(gem)
 - https://en.wikipedia.org/wiki/Aventurine
 - https://en.wikipedia.org/wiki/Azurite
 - https://en.wikipedia.org/wiki/Beryl
@@ -21,14 +33,12 @@ Gemstone descriptions are original summaries of the following Wikipedia articles
 - https://en.wikipedia.org/wiki/Chrysoberyl
 - https://en.wikipedia.org/wiki/Chrysoprase
 - https://en.wikipedia.org/wiki/Citrine
-- https://en.wikipedia.org/wiki/Conch_pearl
+- https://en.wikipedia.org/wiki/Conch
 - https://en.wikipedia.org/wiki/Cordierite
 - https://en.wikipedia.org/wiki/Diamond_(gemstone)
 - https://en.wikipedia.org/wiki/Diamond_color
-- https://en.wikipedia.org/wiki/Emerald
 - https://en.wikipedia.org/wiki/Fluorite
 - https://en.wikipedia.org/wiki/Garnet
-- https://en.wikipedia.org/wiki/Grossular
 - https://en.wikipedia.org/wiki/Heliotrope_(mineral)
 - https://en.wikipedia.org/wiki/Hematite
 - https://en.wikipedia.org/wiki/Howlite
@@ -50,7 +60,6 @@ Gemstone descriptions are original summaries of the following Wikipedia articles
 - https://en.wikipedia.org/wiki/Precious_coral
 - https://en.wikipedia.org/wiki/Pyrite
 - https://en.wikipedia.org/wiki/Quartz
-- https://en.wikipedia.org/wiki/Red_beryl
 - https://en.wikipedia.org/wiki/Rhodochrosite
 - https://en.wikipedia.org/wiki/Rhodonite
 - https://en.wikipedia.org/wiki/Rose_quartz
@@ -71,7 +80,5 @@ Gemstone descriptions are original summaries of the following Wikipedia articles
 - https://en.wikipedia.org/wiki/Tourmaline
 - https://en.wikipedia.org/wiki/Turquoise
 - https://en.wikipedia.org/wiki/Zircon
-
-Wikipedia content is available under CC BY-SA 4.0.
 
 Felglass and its description are by Bartholomew Klick.

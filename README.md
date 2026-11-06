@@ -28,23 +28,48 @@ Enjoy, and please feel free to raise any questions, comments, thoughts, or conce
 
 ## Contents to Date
 
-* 86 types of gemstones with custom art, gold values, and short encyclopedia-style descriptions, each in cut, rough, and fragment forms.
-* Two compendia with the gemstones sorted into value tiers of 10, 50, 100, 500, 1000, and 5000gp. One compendium has the same gemstones, but in an unidentified state for DMs who prefer to use rules and mechanics related to identifying loot.
-* A Materials compendium with 88 crafting materials, including metals, herbs and fungi, glands, and leathers, sorted into six tiers.
-* A Weapon Affixes compendium with prefixes and suffixes for eleven elements, suffixes for all eight schools of magic, and a Named Item effect for renaming enchanted weapons. These are made in the image of the magic item system from the Diablo series. For now, they're all just reflavored enspelled weapons and flametongues, but balanced around different elements and tiers of play.
-* An Item Names compendium with roll tables for generating names for magic weapons and armor.
+* One "BK's Loot" compendium, split into Loot, Crafting Materials, and Magic Items folders. Every category is sorted into folders by value.
+* About 4,000 treasure items with art from the TTRPG Legacy Treasures & Loots pack. These cover currency, trade bars, crafting materials, jewelry, keys, tableware, personal effects, containers, and a bunch of other knick-knacks for your players to loot.
+* The art for these come from recoloring assets to reflect base materials of different values. The base materials I have so far are about 80 gemstones and about 40 metals. This means that most metal items have varients ranging from "rusted iron" and "copper" to "uranium" and "mithril." I have (I think) combinations of all of the gold jewelry items paired with all of the gemstone base materials, but I stopped there because it was getting excessive and I need my computer to do other things in this lifetime than export png files.
+
+* A weapon affix system for creating magic items. If you've played any of the Diablo games, you know how these work. Grab the fire enchantment, drag it onto an item, and create a "Burning Longsword." The affix system, for now, only creates alternative *flametongue* items and *enspelled* items. Prefixes add elemental damage. Suffixes add spell charges.  
+
+* There are also tables for creating random item names in the spirit of Diablo's rare items. This is also because if you keep adding affixes to an item, you can end up with something silly, like a **[Flaming Poisoning Raging Sword Of Doom](https://theadventurezone.fandom.com/wiki/Flaming_Poisoning_Raging_Sword_Of_Doom)**.
+* There is also an item enchantment that only renames another item. This is because eeither FoundryVTT or or the associated 5e system (I'm not sure which) won't let you rename an item enchanted from the affixes like this by simply typing over it. My workaround is an enchantment thats only effect is naming an item. You edit the item, drop it onto any weapon, and it overrides any other name the system may have given it. I am sure that there is something fancy I could have done with javascript, but I really want this module to just be loot.
+* Speaking of breaking my only rule, I have added two spells, because I wanted a thunder and a necrotic smite. They're just reskinned SRD smite spells, but they're in there anyway.
 
 ## Using this Content
 
-This module will create a new compendium folder called "BK's Loot," which will expand to show the contents. If these are not visible, check to make sure that the module has been activated.
+This module will create a new compendium folder called "BK's Loot." If you're not sure what a compendium is, check out this page: https://foundryvtt.com/article/compendium/. 
 
-To create a quick loot table with these items, right-click on any of the folders one level above the gemstone items in their compendia and in the context menu, select "create rollable table." The table will appear in your tables tab.
+It's important to only import the items you actually plan to use from this compendium. It has a lot of art assets. This means it can slow your world down if you import everything.
 
-To enchant a weapon, open one of the affix items in the Weapon Affixes compendium and drag a prefix or suffix from its effects tab onto a nonmagical weapon. A weapon can carry as many affixes as you like, but the name will become very strange, and the item description will become monstrously huge. This is the problem that "Named Item" solves, and the reason I added the random name generator.
+You can create quick and dirty loot tables by right-clicking a compendium folder at the gold-value level and then selecting 'create rollable table.' The table will appear in your tables tab. You can even do something fancy, like create 2 or 3 of these tables, and then have a different table link to them, so that you can select random items of different values.
 
-Each affix item's description explains how its prefixes and suffixes work.
+To enchant a weapon, open one of the affix items. From there you can go to the effects tab, where you will see multiple levels of suffixes and prefixes. Drag one of these onto a non-magical weapon, make sure the weapon isn't in edit mode, and you should see the item's name change, indicating that the enchantment is active.
+
+Each affix item's description explains how its prefixes and suffixes work. Spoiler: they're all flametongue and enspelled weapons. I plan to expand this, eventually. I just wanted diablo items for my campaign, so I made this first.
+
+## Systems
+
+Currently, this only works for D&D5e, except for the item name tables.
+FoundryVTT does not have system-agnostic items. I might do a conversion to PF2E if I can find a way to do it quickly, but I don't think the item values or bulk will make much sense in that system. All of my prices are generated off of a spread-sheet with the values tied to their base materials. Changing this would be tedious, but I am willing to do it if I can find a conversion table from 5e to PF2e.
+For other fantasy systems, I am very likely going to convert the items and their descriptions into a journal or a PDF. Most likely a PDF, since I can do that a bit more easily than a journal. I think. I'll update this space when I am certain about how I will support broader fantasy systems, even if the answer is "sorry, no can do."
 
 ## Changelog
+
+### 2.1.0
+
+* Added loot tables. There is a 5e-specific version of the tables that link to the loot items in the compendiums, as well as system-agnostic tables that allow people using other systems to roll the items.
+* Pricing pass so that items that are made of metal in the SRD are no longer money hacks for players. If you find SRD items that you can convert into their base components for more money than you purchased them for, please let me know, in case I missed them. In an unrelated note, my players in my pharmacy game have essentially infinite gold. It's fine, though, because they also summoned Mammon, enlarged him, and he is now a kaiju in the middle of their city. If they beat him and all of their ill-gotten money means anything, I definitely do not hope that they choke on it.
+
+### 2.0.0 (10-04-2026)
+
+* All items have been moved into one compendium. I made Claude do this because it was hurting my wrist.
+* I added several thousand new items. I am definitely autistic.
+* Iron, copper, silver, gold, and platinum now match the value of the PHB. This is because a lot of items had wonky prices and made a nonsense economy. It's still a nonsense economy, but now it's a consistent nonsense economy based on the value of metals. Every single item has had its value based on the price of these metals. I hated every single second of this.
+* The old "metal" items are gone. The art for them now goes with "large, pure" bars of their respective metals.
+* Items with a base material have the description of that material beneath their main description.
 
 ### 1.4.0
 
@@ -52,7 +77,7 @@ Each affix item's description explains how its prefixes and suffixes work.
 * Added suffixes for all eight schools of magic.
 * Added the Materials compendium: 45 metals, 32 herbs and fungi, 4 glands, and 7 leathers.
 * Felglass is now blue, and it is linked to Mana, its melted form, in the Materials compendium.
-* Editorial pass on all module text.
+* Editorial pass on all module text. I'm barely literate.
 
 ### 1.3.1
 
@@ -159,17 +184,17 @@ Felglass, Pixie Iron, Graus Mithril, Dragonscale, Ghost Foil, Noctritium and the
 
 The gemstone art is by Ddant1100 and was not made with AI. Some icons were recolored from the artist's grayscale originals using a gradient map.
 
-I built this module with the help of Claude, an AI assistant, which reduced hundreds of hours of clicking-and-dragging to a mere tens of hours.
+I did, however, build this module with the help of Claude, an AI assistant, which reduced hundreds of hours of clicking-and-dragging to a mere tens of hours.
 
 In all seriousness, Claude has helped me to automate tedious or repetitive parts of preparing this content. Without this help, it would be at the top of my pile of unfinished, unshared creations.
 
-Claude also helped balance the weapon affixes and create the dozens and dozens of similar items required for them in FoundryVTT. It also drafted description text for mundane items from templates I gave it. I read and edited everything it has produced, but have doubtless missed errors.
+Claude also helped balance the weapon affixes and create the dozens and dozens of similar items required for them in FoundryVTT. It also drafted description text for mundane items from templates I gave it. I read and edited everything it has produced, but have doubtless missed errors. The templates read like "This {adjective}{material}{item} is shaped like a {descriptor}." It isn't thrilling writing. It's mostly in a Calc sheet.
 
-The gem list, values, forms, and overall design are my decisions. Felglass and many of the other magical materials within are my own creations and the short descriptions of them are wholly mine. If I continue to add content to this module, I will expand on any sources of generative content either here or in the version notes, while putting human contributions in the credits.
+The value of items, their names, and their overall design are my decisions. Felglass and many of the other magical materials within are my own creations and the short descriptions of them are wholly mine. If I continue to add content to this module, I will expand on any sources of generative content either here or in the version notes, while putting human contributions in the credits.
 
 I understand and share many concerns about LLMs, particularly with energy use and how they have been trained, but choose to engage with the tools because they have helped me create things after a long period of depression. Thank you for your understanding.
 
-As a writer, I feel like I have skin in the game, so to speak, about the use of tools that generate text in my chosen form of art. From this standpoint, I have outsourced the writing tasks I find deeply tedious to it, and have had it adhere to fairly strict templates.
+As a writer, I feel like I have skin in the game, so to speak, about the use of tools that generate text in my chosen form of art. From this standpoint, I have outsourced the writing tasks I find deeply tedious to it, and have had it adhere to the fairly strict templates I mentioned above. This allowed me to write about 80 short descriptions, do a grammar 
 
 Out of solidarity with the artists in my life, and out of respect for the artists I admire, I will not knowingly use AI art. I do not expect this policy to change, outside of some massive paradigm change. The cultural use of art is very different, in my opinion, than the cultural use of written copy. Also, I don't draw, and I feel like art I use should be meaningfully creditable to the people who made it, and this is currently impossible (and might be [mathematically impossible](https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818).)
 
