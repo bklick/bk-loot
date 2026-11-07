@@ -194,9 +194,9 @@ The value of items, their names, and their overall design are my decisions. Felg
 
 I understand and share many concerns about LLMs, particularly with energy use and how they have been trained, but choose to engage with the tools because they have helped me create things after a long period of depression. Thank you for your understanding.
 
-As a writer, I feel like I have skin in the game, so to speak, about the use of tools that generate text in my chosen form of art. From this standpoint, I have outsourced the writing tasks I find deeply tedious to it, and have had it adhere to the fairly strict templates I mentioned above. This allowed me to write about 80 short descriptions, do a grammar 
+As a writer, I feel like I have skin in the game, so to speak, about the use of tools that generate text in my chosen form of art. From this standpoint, I have outsourced the writing tasks I find deeply tedious to it, and have had it adhere to the fairly strict templates I mentioned above. This allowed me to write a very large amount of short, but necessary, descriptions to make the loot items meaningful.
 
-Out of solidarity with the artists in my life, and out of respect for the artists I admire, I will not knowingly use AI art. I do not expect this policy to change, outside of some massive paradigm change. The cultural use of art is very different, in my opinion, than the cultural use of written copy. Also, I don't draw, and I feel like art I use should be meaningfully creditable to the people who made it, and this is currently impossible (and might be [mathematically impossible](https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818).)
+Out of solidarity with the artists in my life, and out of respect for the artists I admire, I will not knowingly use AI art. I do not expect this policy to change, outside of some massive paradigm change. The cultural use of art is very different, in my opinion, than the cultural use of written copy. Also, I don't draw, and I feel like art I use should be meaningfully creditable to the people who made it, and this is currently impossible (and might be [mathematically impossible](https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818)) with AI art.
 
 ## License
 
